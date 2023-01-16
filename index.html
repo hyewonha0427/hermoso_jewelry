@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1320">
+    <title>hermoso_jewelry</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Noto+Sans+KR:wght@100;300;400&family=Roboto:wght@100&display=swap'); </style>
+    
+
+</head>
+
+<body>
+    
+    <div class="movie">
+        <video muted="" preload="true" loop autoplay webkit-playsinline="webkit-playsinline" playsinline="playsinline">
+            <source src="media/banner.mp4" type="video/mp4">
+        </video>
+
+        <div id="banner_wrap">
+            <div class="banner">
+                <div class="shop_btn">
+                    <a href="shop.html" class="button">GO SHOP</a>
+                </div>
+            </div>
+        </div>
+<div class="header_wrap">
+        <div class="header">
+            <h1 class="logo"><a href="#"><img src="images/logo.png" alt=""></a></h1>
+            <ul class="gnb">
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="event.html">Event</a></li>
+                <li><a href="lookbook.html">Look Book</a></li>
+            </ul>
+            <form action="">
+                <input type="search" style="width: 200px;" placeholder="Search">
+
+                <a href="javascript:return false;"><img src="images/search.png" alt=""></a>
+            </form>
+
+            <p ><a href="reservaition.html">Reservaition</a> </p>
+        </div>
+    </div>
+    </div>
+    <p class="btn_top">
+        <a href="index.html#banner_wrap">
+         <img src="images/main/btn_top.png" alt="btn">
+     </a> 
+     </p>
+     <p class="btn_bottom">
+         <a href="index.html#footer_wrap">
+             <img src="images/main/btn_bottom.png" alt="btn">
+         </a>
+     </p>
+    <section class="regular slider">
+        <div>
+                <div class="gallery">
+                    <img src="images/main/slide1.png">
+                    <p class="name">Evening</p>
+                    <p class="text">260,400원 I SILVER</p>
+                </div>
+        </div>
+        <div>
+          <div class="gallery">
+                    <img src="images/main/slide2.png">
+                    <p class="name">Afterglow</p>
+                    <p class="text">378,500원 I SILVER</p>
+                </div>
+        </div>
+        <div>
+          <div class="gallery">
+                    <img src="images/main/slide3.png">
+                    <p class="name">Sea of love</p>
+                    <p class="text">350,000원 I SILVER</p>
+                </div>
+        </div>
+        <div>
+          <div class="gallery">
+                    <img src="images/main/slide4.png">
+                    <p class="name">Before Sunrise</p>
+                    <p class="text">300,000원 I SILVER</p>
+                </div>
+        </div>
+        <div>
+          <div class="gallery">
+                    <img src="images/main/slide5.png">
+                    <p class="name">Contect</p>
+                    <p class="text">380,000원 I 18k</p>
+                </div>
+        </div>
+        <div>
+          <div class="gallery">
+                    <img src="images/main/slide6.png">
+                    <p class="name">Blow</p>
+                    <p class="text">250,000원 I SILVER</p>
+                </div>
+        </div>
+        <div>
+         <div class="gallery">
+                    <img src="images/main/slide7.png">
+                    <p class="name">Before Sunset</p>
+                    <p class="text">400,000원 I SILVER</p>
+                </div>
+        </div>
+        <div>
+          <div class="gallery">
+                    <img src="images/main/slide8.png">
+                    <p class="name">SeaWave</p>
+                    <p class="text">180,000원  I SILVER</p>
+                </div>
+        </div>
+      </section>
+      
+      <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+      <script src="js/slick.js" type="text/javascript" charset="utf-8"></script>
+      <script type="text/javascript">
+        $(document).on('ready', function() {
+        $(".regular").slick({infinite: true , /* 맨끝이미지에서 끝나지 않고 다시 맨앞으로 이동 */         
+        slidesToShow: 6, /* 화면에 보여질 이미지 갯수*/        
+        slidesToScroll: 1,  /* 스크롤시 이동할 이미지 갯수 */         
+        autoplay: true, /* 자동으로 다음이미지 보여주기 */               
+        dots:true, /* 아래점 */         
+        autoplaySpeed:1000,/* 다음이미지로 넘어갈 시간 */         
+        speed:999 , /* 다음이미지로 넘겨질때 걸리는 시간 */         
+        pauseOnHover:true, /* 마우스 호버시 슬라이드 이동 멈춤 */        
+       
+        
+        responsive: [ // 반응형 웹 구현 옵션
+            {  
+              breakpoint: 960, //화면 사이즈 960px
+              settings: {
+                slidesToShow: 3
+              } 
+            },
+            { 
+              breakpoint: 768, //화면 사이즈 768px
+              settings: {    
+                slidesToShow: 1
+              } 
+            }
+          ]
+               });
+    
+        });
+    </script>
+    <div id="section1_wrap">
+        <div class="section1">
+            <p>BEST ITEM</p>
+            <div class="best_back">
+                <img src="images/main/best_back.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="section1_contents">
+        <p># 이번달, hermoso에서 가장 인기 있는 주얼리를 만나보세요!  </p>
+        <ul class="best_box1">
+            <li><a href="lookbook.html"><img src="images/main/best1.png" alt=""></a></li>
+        </ul>
+        <ul class="best_box2">
+            <li><a href="lookbook.html"><img src="images/main/best2.png" alt=""></a></li>
+            <li><a href="lookbook.html"><img src="images/main/best3.png" alt=""></a></li>
+            <li><a href="lookbook.html"><img src="images/main/best4.png" alt=""></a></li>
+            <li><a href="lookbook.html"><img src="images/main/best5.png" alt=""></a></li>
+        </ul>
+
+        <div class="view_box">
+            <a href="lookbook.html">VIEW MORE</a>
+        </div>
+
+    </div>
+
+    <div id="section2">
+        
+        <div class="new_arrivals">
+            <p># 2023년, 당신을 더욱 빛나게 할 hermoso의 새로운 아이템을 만나보세요!</p>
+            <a href="shop.html"><img src="images/main/new.png" alt=""></a>
+        </div>
+    </div>
+
+    <div id="section3_wrap">
+        <div class="section3">
+            <ul class="showroom">
+                <li><a href="about.html"><img src="images/main/show.png" alt=""></a></li>
+                <li><a href="about.html"><img src="images/main/room.png" alt=""></a></li>
+            </ul>
+            <ul class="gift_package">
+                <li><a href="about.html"><img src="images/main/gift.png" alt=""></a></li>
+                <li><a href="about.html"><img src="images/main/package.png" alt=""></a></li>
+            </ul>
+            <ul class="app_icons">
+                <li><a href="http://www.instagram.com/hermoso_jew"><img src="images/main/instagram_icon.png" alt=""></a></li>
+                <li><a href="https://www.29cm.co.kr"><img src="images/main/29cm.png" alt=""></a></li>
+                <li><a href="www.musinsa.com"><img src="images/main/musinsa.png" alt=""></a></li>
+                <li><a href="www.amondz.com"><img src="images/main/amonz.png" alt=""></a></li>
+                <li><a href="www.brandi.co.kr"><img src="images/main/brandi.png" alt=""></a></li>
+                <li><a href="www.lfmall.co.kr"><img src="images/main/lfmall.png" alt=""></a></li>
+            </ul>
+        </div>
+
+    </div>
+    <div id="section4_wrap">
+        <div class="section4">
+            <div class="event_box">
+                <a href="event.html">이벤트 쿠폰 확인하기</a>
+            </div>
+            <ul class="coupon">
+                    <li><a href="event.html"><img src="images/main/coupon1.png" alt=""></a></li>
+                    <li><a href="event.html"><img src="images/main/coupon2.png" alt=""></a></li>
+                    <li><a href="event.html"><img src="images/main/coupon3.png" alt=""></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="footer_wrap">
+        <!--footer_S-->
+        <div class="footer">
+            <ul class="footer_link">
+                <li><a href="index.html">HERMOSO JEWERLY</a></li>
+                <li>OPEN I MON-FRI </li>
+                <li>(11AM-8AM)</li>
+                <li>CLOSE I HOLYDAYS</li>
+            </ul>
+            <ul class="footer_link">
+                <li><a href="http://www.instagram.com/hermoso_jew">  <img src="images/main/footer_instagram.png" alt=""> INSTAGRAM</a></li>
+                <li>OWNER-HA HYE WON</li>
+                <li>TEL 010.7723.0476</li>
+                
+            </ul>
+            <p>
+                <a href="index.html"><img src="images/main/img_footer.png" alt=""></a>
+            </p>
+            </div>
+        </div>
+</body>
+
+</html>

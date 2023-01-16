@@ -1,0 +1,485 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    /*1rem=18px*/
+    line-height: 1.6em;
+    color: #333;
+    min-width: 1320px;
+}
+
+#banner_wrap {
+    overflow: hidden;
+    position: relative;
+}
+
+.banner {
+    text-align: center;
+    height: 1084px;
+    background-image: url(../images/reservaition/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contents {
+    width: 1320px;
+    margin: 0 auto;
+    position: relative;
+    height: 1084px;
+    background-image: url(../images/reservaition/showroomback.png);
+    background-repeat: no-repeat;
+    background-position: top 394px center;
+}
+
+.contents img {
+    position: absolute;
+    top: 148px;
+    left: 0;
+}
+
+.title {
+    text-align: left;
+    position: absolute;
+    top: 286px;
+    left: 158px;
+    color: #BCBCBC;
+}
+
+.section {
+    width: 1139px;
+    margin: 0 auto;
+    height: 614px;
+    padding-top: 394px;
+    position: relative;
+}
+
+.contents_left {
+    width: 492px;
+    height: 614px;
+    float: left;
+    padding: 44px 54px;
+    text-align: left;
+    position: relative;
+}
+
+.contents_left img {
+    position: absolute;
+    top: 88px;
+    left: 54px;
+}
+
+.text1 {
+    padding-top: 70px;
+    font-size: 15px;
+    color: #7E7E7E;
+}
+
+.text2 {
+    padding-top: 50px;
+    font-size: 11px;
+    line-height: 15px;
+    color: #7E7E7E;
+}
+
+span {
+    color: #C5AB84;
+    font-weight: bold;
+}
+
+.contents_right {
+    width: 647px;
+    height: 614px;
+    position: relative;
+}
+
+.reservaition {
+    position: absolute;
+    top: 65px;
+    left: 520px;
+    width: 610px;
+}
+
+table {
+    border-top: 2px solid #beaf9f;
+    border-collapse: collapse;
+    width: 95%;
+}
+
+th {
+    border-bottom: 1px solid #dfcfc0;
+    text-align: left;
+
+}
+
+td {
+    border-bottom: 1px solid #DBD4CD;
+    padding: 15px 20px;
+    text-align: left;
+
+}
+
+input {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+
+}
+
+input::placeholder {
+    color: orange;
+    padding-left: 80px;
+}
+
+select {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #ccc;
+
+    color: #aaa;
+    outline: none;
+}
+
+input[type="button"] {
+    background-color: #333;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 30px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+textarea {
+    width: 50%;
+    height: 50px;
+    resize: none;
+    /*사용자가 임의로 사이즈 변경불가하게*/
+    outline: none;
+}
+
+.space {
+    margin-right: 10px;
+}
+
+.btn {
+    text-align: center;
+    padding-top: 55px;
+}
+
+input[type="submit"] {
+    background-color: rgb(185, 160, 106);
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 10px 30px;
+    vertical-align: middle;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+input[type="reset"] {
+    background-color: #333;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 30px;
+    vertical-align: middle;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.header_wrap {
+    height: 100px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.header {
+    height: 100px;
+    width: 1320px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo {
+    float: left;
+}
+
+.gnb {
+    display: flex;
+    padding-top: 40px;
+    width: 40%;
+    justify-content: space-around;
+}
+
+.gnb li {
+    text-align: center;
+    width: 100%;
+}
+
+.gnb li a {
+    display: block;
+    padding: 4px 0 15px;
+    color: #fff;
+
+}
+
+.gnb li a:hover {
+    color: #ffefd6;
+}
+
+.search {
+    position: absolute;
+    top: 39px;
+    right: 231px;
+}
+
+input[type="search"] {
+    display: inline-block;
+    padding: 5px;
+    border: 0.5px solid #ccc;
+    vertical-align: middle;
+    outline: none;
+    border-radius: 20px;
+}
+
+input::placeholder {
+    /*placeholder속성 꾸미기 가능*/
+    color: #ccc;
+    padding-left: 100px;
+}
+
+.search img {
+    position: absolute;
+    top: 4px;
+    right: 5px;
+}
+
+.header p a {
+    position: absolute;
+    top: 40px;
+    right: 117px;
+    color: #fff;
+}
+
+.header p a:hover {
+    color: #ffefd6;
+}
+
+.btn_top {
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+    z-index: 999;
+}
+
+.btn_bottom {
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+    z-index: 999;
+}
+
+#container_wrap {
+    width: 100%;
+    background-color: #F3EFE6;
+    height: 550px;
+}
+
+.container {
+    width: 1320px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.agree_box {
+    width: 400px;
+    height: 40px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 50px;
+    position: absolute;
+    top: -20px;
+    left: 443px;
+    padding-top: 13px;
+    font-size: 19px;
+    font-weight: bold;
+
+}
+
+.agree {
+    border: 1px solid rgb(139, 139, 139);
+    background-color: #fff;
+    padding: 20px;
+    height: 150px;
+    overflow: auto;
+    width: 780px;
+    position: absolute;
+    top: 90px;
+    left: 225px;
+}
+
+.agree_btn {
+    padding: 300px 300px 0 0;
+    text-align: right;
+}
+
+.popup_open {
+    cursor: pointer;
+    display: inline-block;
+
+}
+
+.popup_wrap {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+}
+
+.popup {
+    width: 450px;
+    height: 250px;
+    background-color: rgb(236, 236, 234);
+    color: rgb(0, 0, 0);
+    border: 1px solid #aaa;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    margin-left: -300px;
+    padding: 30px;
+    box-sizing: border-box;
+    position: relative;
+    line-height: 10px;
+    border-radius: 10px;
+}
+
+.popup h1 {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.popup h3 {
+    text-align: center;
+}
+
+.popup p {
+    text-align: center;
+    padding-top: 30px;
+    color: rgb(119, 119, 119);
+}
+
+.close_btn {
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+    position: absolute;
+    right: 200px;
+    bottom: 15px
+}
+
+#bottom_wrap {
+    height: 150px;
+    background-color: #E2D5C2;
+}
+
+.bottom {
+    width: 1320px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.bottom h1 {
+    float: right;
+    font-size: 112px;
+    padding-top: 30px;
+    color: #F1EBE0;
+}
+
+.bottom_text {
+    float: left;
+    padding: 42px 0 0 76px;
+}
+
+.bottom_text p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #5B5A5A;
+}
+
+.bottom_text strong {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+}
+
+.app_icons {
+    position: absolute;
+    top: 0;
+    left: 660px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 48%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+#footer_wrap {
+    height: 300px;
+    background-color: #1E1E1E;
+}
+
+.footer {
+    width: 1320px;
+    margin: 0 auto;
+    padding-left: 0px;
+}
+
+.footer_link {
+    width: 200px;
+    float: left;
+    padding: 90px 50px 0 100px;
+    overflow: hidden;
+}
+
+.footer_link li {
+    color: rgb(170, 170, 170);
+}
+
+.footer_link li a {
+    color: rgb(170, 170, 170);
+}
+
+.footer_link li a:hover {
+    color: #fff;
+}
+
+.footer p {
+    padding: 90px 95px 0 0;
+    width: 140px;
+    float: right;
+}
